@@ -8,12 +8,12 @@ This is basic user management application using spring boot. This application wi
 
 #### Get all users
 
-```http
+```
   GET /users
 ```
 #### Get user by id
 
-```http
+```
   GET /users/{id}
 ```
 
@@ -23,7 +23,7 @@ This is basic user management application using spring boot. This application wi
 
 #### Get user by name
 
-```http
+```
   GET /users/username/{name}
 ```
 
@@ -33,7 +33,7 @@ This is basic user management application using spring boot. This application wi
 
 #### Create user
 
-```http
+```
   POST /users
 ```
 
@@ -43,7 +43,7 @@ This is basic user management application using spring boot. This application wi
 
 #### Delete user by id
 
-```http
+```
   DELETE /users/{id}
 ```
 
